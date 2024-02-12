@@ -293,6 +293,100 @@ body {
 }
 .margin-bottom-border {
   border-bottom: 1px solid #bdd6cd;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* Download app style */
+.download-app{
+  background-image: url(images/side-bg.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.store-icon-box{
+  background-color: var(--custom-green-color);
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nomad-download{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.store-icon-box-detail h3{
+font-size: 32px;
+font-weight: 600;
+margin-bottom: 18px;
+}
+.store-icon-box-detail{
+  margin-left: 15px;
+}
+.store-icon-box-detail h5{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.store-icon-box-detail p{
+  font-size: 23px;
+  font-weight: 400;
+}
+.app-store-btn-img img{
+  margin-top: 65px;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-filter: grayscale(0%);
+}
+.app-store-btn-img img:hover{
+  -webkit-filter: grayscale(100%);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* Notice section style */
+.notice-bg{
+  background: #ffa9ad;
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+.speaker{
+  background: #ff0000;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -60px;
+}
+.notice-bg h4{
+  margin-top: 100px;
+  margin-bottom: 19px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.notice-bg p{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  max-width: 85%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.notice-bg a{
+  text-decoration: none;
 }
